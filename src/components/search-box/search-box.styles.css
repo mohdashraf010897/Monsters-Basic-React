@@ -1,0 +1,16 @@
+.search {
+  border: none;
+  border-radius: 20px;
+  background-color: #d5e9e4;
+  outline: none;
+  padding: 10px;
+  width: 300px;
+  line-height: 30px;
+  margin-bottom: 50px;
+  transition: all 0.5s;
+}
+
+.search:focus {
+  transform: scaleX(1.1);
+  box-shadow: 0 4px 10px #69d2e4;
+}
